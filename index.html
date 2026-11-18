@@ -45,7 +45,7 @@ h2.display{font-size:clamp(2.1rem,5.5vw,3.4rem);margin:0 0 .8rem}
 p.lede{font-size:1.15rem;color:var(--ink-soft);max-width:38rem;margin:0}
 
 /* buttons */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:48px;padding:.75rem 1.3rem;border-radius:999px;border:2px solid var(--ink);font-weight:700;text-decoration:none;background:var(--card);box-shadow:0 3px 0 var(--ink);transition:transform .12s ease,box-shadow .12s ease}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:48px;padding:.75rem 1.3rem;border-radius:999px;border:2px solid var(--ink);font-weight:700;text-decoration:none;color:var(--ink);background:var(--card);box-shadow:0 3px 0 var(--ink);transition:transform .12s ease,box-shadow .12s ease}
 .btn:active{transform:translateY(3px);box-shadow:0 0 0 var(--ink)}
 .btn.pink{background:var(--pink);color:#fff}
 .btn.lime{background:var(--lime)}
@@ -95,7 +95,7 @@ header.nav{position:sticky;top:0;z-index:20;background:rgba(255,247,239,.86);bac
 @keyframes slide{to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.ticker .row{animation:none}}
 
-section{padding-block:clamp(3.5rem,8vw,6rem)}
+section{padding-block:clamp(3.5rem,8vw,6rem);scroll-margin-top:64px}
 
 /* menu */
 .menu-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:1rem;margin-bottom:2rem}
